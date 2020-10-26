@@ -1,3 +1,10 @@
 html {
-    background: linear-gradient(90deg, white, gold, silver)
+    background-image: url(https://images.unsplash.com/photo-1591204954412-a30e9ae525ee?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=juan-nino-5xggCLWhoVI-unsplash.jpg);
+    background-size: 100%;
+    filter: grayscale(100%)
+}
+
+body {
+    background: none !important;
+    filter: opacity()
 }
