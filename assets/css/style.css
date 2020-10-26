@@ -8,3 +8,7 @@ body {
     background: none !important;
     filter: opacity()
 }
+
+footer{
+    background-color: white;
+}
