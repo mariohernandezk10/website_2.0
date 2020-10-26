@@ -9,6 +9,12 @@ body {
     filter: opacity()
 }
 
-footer{
+button:hover {
+    background-color: yellow;
+}
+/* not sure why hover css doesn't work */
+
+footer {
     background-color: white;
 }
+
