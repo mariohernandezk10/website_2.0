@@ -1,18 +1,22 @@
 html {
     background-image: url(https://images.unsplash.com/photo-1591204954412-a30e9ae525ee?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=juan-nino-5xggCLWhoVI-unsplash.jpg);
     background-size: 100%;
-    filter: grayscale(100%)
+    filter: grayscale(100%);
 }
 
 body {
     background: none !important;
-    filter: opacity()
 }
 
 button:hover {
     background-color: yellow;
 }
 /* not sure why hover css doesn't work */
+
+img {
+    width: 80px;
+    filter: none !important;
+}
 
 footer {
     background-color: white;
