@@ -1,3 +1,6 @@
+console.log(document.body.children);
+
+
 function revealMessage() {
     document.getElementById("hiddenMessage").style.display = "block"
     document.getElementById("hiddenMessage").style.backgroundColor = "White"
@@ -14,3 +17,5 @@ const navSlide = () => {
 
 navSlide();
 
+
+console.log(document.body.children);
